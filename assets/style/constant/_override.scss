@@ -1,0 +1,19 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.mobile-menu {
+  display: none;
+}
+.foot-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+.left-top {
+  .ant-select {
+    .ant-select-selection-item {
+      font-size: 10px !important;
+      color: #8c94a3 !important;
+    }
+  }
+}

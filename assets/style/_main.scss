@@ -1,0 +1,20 @@
+// ==============COMPONENT==============
+@import "./component/nav/topNav";
+@import "./component/nav/secNav";
+@import "./component/heroBanner/heroBanner";
+@import "./component/bestSelling/bestSelling";
+@import "./component/recentCourse/recentCourse";
+@import "./component/courseCard/courseCard";
+@import "./component/instructor/becomeInstructor";
+@import "./component/instructor/instructorCard";
+@import "./component/instructor/topInstructor";
+@import "./component/startLearning/startLearning";
+@import "./component/browseCategory/browse-top-cat";
+@import "./component/popOverCard/popOver";
+@import "./component/footer/footer";
+
+//============CONSTANT===========
+@import "./constant/override";
+
+//==========RESPONSIVE=============
+@import "./constant/responsive";

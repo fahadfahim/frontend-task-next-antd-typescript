@@ -1,0 +1,85 @@
+.sec-wrapper {
+  margin: 0 auto;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .sec-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      margin-right: 30px;
+      height: 35px;
+      width: 135px;
+      img {
+        height: 100%;
+      }
+    }
+    .sec-search-filter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .sec-select {
+        margin-right: 8px;
+        .ant-select {
+          .ant-select-selector {
+            height: 36px !important;
+            border-radius: 0px;
+          }
+        }
+      }
+      .sec-search {
+        .ant-input-group-wrapper {
+          .ant-input-wrapper {
+            border: 1px solid #d9d9d9;
+            width: 260px;
+            .ant-input-group-addon {
+              border-radius: 0px !important;
+              height: 35px !important;
+              border: none !important;
+              background-color: #fff;
+            }
+            .ant-input {
+              border-radius: 0px !important;
+              height: 35px !important;
+              border: none !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sec-right {
+    .btn-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .cart-btn-wrapper {
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+          margin-right: 10px;
+        }
+      }
+      .create-sign {
+        .create-acc {
+          background: #ffeee8;
+          color: #ff6636;
+          padding: 8px 10px;
+          margin-right: 10px;
+          font-size: 16px;
+        }
+        .sign-in {
+          background: #ff6636;
+          color: #ffeee8;
+          padding: 8px 10px;
+          margin-right: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

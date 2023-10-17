@@ -1,0 +1,36 @@
+.recent-course {
+  background: #fff;
+  padding: 0 8px 0 0;
+  .recent-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 46px;
+    .recent-title {
+      text-align: center;
+      padding: 30px 0;
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+      }
+    }
+    .browse-all {
+      text-align: center;
+      .browse-all-btn {
+        color: rgba(255, 102, 54, 1);
+        background-color: rgba(255, 238, 232, 1);
+        padding: 10px 20px;
+        font-size: 14px;
+        .span {
+          display: inline !important;
+        }
+      }
+    }
+  }
+
+  .recent-course-wrapper {
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // grid-gap: 12px;
+    padding-bottom: 70px;
+  }
+}

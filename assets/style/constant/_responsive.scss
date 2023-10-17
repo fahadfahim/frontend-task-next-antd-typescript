@@ -1,0 +1,230 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+body {
+  font-size: 16px;
+
+  @media screen and (max-width: $breakpoint-sm) {
+    .li-active {
+      border-top: none !important;
+    }
+    .wrapper {
+      width: 90%;
+    }
+    .mobile-menu {
+      display: block;
+      background-color: rgba(29, 32, 38, 1);
+      position: relative;
+      z-index: 999;
+      .logo {
+        position: absolute;
+        height: 25px;
+        width: 100px;
+        top: 10px;
+        left: 13px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      ul {
+        background-color: rgba(29, 32, 38, 1);
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        li {
+          margin-bottom: 30px;
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .burger-btn {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+      }
+    }
+    .top-bg {
+      .right-top {
+        display: none;
+      }
+      .left-top {
+        display: none;
+      }
+    }
+
+    .sec-nav {
+      display: none;
+    }
+
+    .hero-banner {
+      .about-banner-wrapper {
+        margin: 20px auto !important;
+        .about-banner {
+          h1 {
+            font-size: 28px !important;
+            line-height: 35px !important;
+            font-weight: 500 !important;
+          }
+        }
+      }
+    }
+    .start-learning {
+      .learning-info-are {
+        flex-direction: column;
+        margin: 15px;
+        .learning-desc {
+          text-align: center;
+        }
+      }
+      .learning-about {
+        margin: 20px 0 0px 0px;
+        .title {
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+    .browse-top-category {
+      .browse-title {
+        h1 {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .best-selling {
+      .best-selling-wrapper {
+        .best-title {
+          h1 {
+            font-size: 24px;
+          }
+        }
+        .course-wrapper {
+          grid-template-columns: 1fr !important;
+        }
+      }
+    }
+
+    .become-desc {
+      .your-teaching {
+        .your-teaching-title {
+          h1 {
+            font-size: 24px;
+          }
+        }
+        .teaching-opt {
+          ul {
+            grid-template-columns: 1fr !important;
+            li {
+              margin-bottom: 26px !important;
+              text-align: start;
+            }
+          }
+        }
+      }
+    }
+    .top-instructor {
+      .top-inst-wrapper {
+        .top-instructor-title {
+          h1 {
+            font-size: 20px;
+          }
+        }
+      }
+      .inst-wrapper {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-xl) {
+    .hero-banner {
+      .about-banner-wrapper {
+        .about-banner {
+          .title {
+            h1 {
+              font-size: 50px;
+            }
+          }
+        }
+      }
+    }
+    .become-desc {
+      .your-teaching {
+        .teaching-opt {
+          ul {
+            li {
+              // display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 20px;
+              &:nth-child(3) {
+                margin-bottom: 9px;
+              }
+              &:nth-child(4) {
+                margin-bottom: 9px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .browse-top-category {
+      .cat-card {
+        .cat-info {
+          p {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+    .best-selling {
+      .best-selling-wrapper {
+        .course-wrapper {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+      }
+    }
+    .top-instructor {
+      .inst-wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-xl) {
+    .hero-banner {
+      .about-banner-wrapper {
+        margin: 75px 0;
+      }
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-xxl) {
+  .become-desc {
+    .your-teaching {
+      .teaching-opt {
+        margin: 30px 0;
+        ul {
+          margin: 34px 0;
+
+          li {
+            margin-bottom: 35px;
+            &:nth-child(3) {
+              margin-bottom: 0;
+            }
+            &:nth-child(4) {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

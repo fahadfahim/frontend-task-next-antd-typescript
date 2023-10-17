@@ -1,0 +1,37 @@
+.top-bg {
+  background: #1d2026;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  .mobile-menu {
+    display: none;
+  }
+  .right-top {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li {
+        margin-right: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        padding: 7px 15px;
+        color: #8c94a3;
+      }
+      .active {
+        color: #ffffff;
+      }
+    }
+  }
+  .left-top {
+    .ant-select-selector {
+      border-radius: 0px !important;
+      border: none !important;
+      //   background: transparent;
+      color: #ddd;
+      background: #1d2026;
+    }
+  }
+}

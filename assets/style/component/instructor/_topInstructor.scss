@@ -1,0 +1,21 @@
+.top-instructor {
+  margin-bottom: 70px;
+
+  .top-inst-wrapper {
+    background: #fff;
+    margin-top: -70px;
+    .top-instructor-title {
+      text-align: center;
+      margin: 23px 0;
+      h1 {
+        font-size: 28px;
+        font-weight: 500;
+      }
+    }
+  }
+  .inst-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+}

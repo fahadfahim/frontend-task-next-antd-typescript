@@ -1,0 +1,92 @@
+.footer-wrapper {
+  background: rgb(29, 32, 38);
+  .footer {
+    background: rgb(29, 32, 38);
+    border-top: 2px solid rgb(60, 64, 72);
+    padding: 50px 0;
+    border-bottom: 2px solid rgb(60, 64, 72);
+    .footer-info-ara {
+      padding: 0 55px 0 0;
+      p {
+        color: rgba(140, 148, 163, 1);
+        margin: 10px 0;
+      }
+      .social-area {
+        display: flex;
+        justify-content: space-between;
+        margin: 14px 0;
+        .social-btn {
+          padding: 12px;
+          background: rgba(54, 59, 71, 0.4);
+          cursor: pointer;
+        }
+      }
+    }
+    .top-4-cat {
+      h1 {
+        font-size: 16px;
+        color: #fff;
+      }
+      ul {
+        li {
+          color: rgba(140, 148, 163, 1);
+          margin: 10px 0;
+          font-size: 14px;
+          transition: 1s ease-in-out;
+          position: relative;
+          cursor: pointer;
+          &::after {
+            content: "->";
+            color: #fff;
+            position: absolute;
+            right: 0;
+            opacity: 0;
+            visibility: hidden;
+            top: 0;
+            transition: 1s ease-in-out;
+          }
+          &:hover {
+            // font-size: 16px;
+            color: #fff;
+            border-bottom: 1px solid #ff6636;
+            &::after {
+              opacity: 1;
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    p {
+      font-size: 14px;
+      color: rgba(140, 148, 163, 1);
+      span {
+        color: #fff;
+      }
+    }
+    .bottom-btn {
+      .ant-select {
+        .ant-select-selector {
+          border-radius: 0px !important;
+          background: #1d2026;
+          color: #fff;
+          border: 1px solid rgba(54, 59, 71, 1) !important;
+        }
+      }
+    }
+  }
+}
+
+.li-active {
+  border-top: 1px solid rgba(255, 102, 54, 1) !important;
+  a {
+    color: #fff;
+    font-weight: 500;
+  }
+}

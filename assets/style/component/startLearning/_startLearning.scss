@@ -1,0 +1,49 @@
+.start-learning {
+  background: rgba(29, 32, 38, 1);
+  .learning-about {
+    margin: 50px 0px;
+
+    .title {
+      h1 {
+        font-size: 34px;
+        color: #fff;
+      }
+    }
+    .btn-are {
+      margin: 15px 0;
+
+      .join {
+        background: rgba(255, 102, 54, 1);
+        color: #fff;
+        font-weight: 500;
+        padding: 10px 14px;
+        font-size: 16px;
+        margin-right: 10px;
+      }
+      .browse {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 10px 14px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+      }
+    }
+  }
+  .learning-info-are {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto;
+    .learning-desc {
+      h1 {
+        color: rgba(255, 255, 255, 1);
+        font-size: 40px;
+        font-weight: 700;
+      }
+      p {
+        color: rgba(183, 186, 199, 1);
+        font-size: 16px;
+      }
+    }
+  }
+}

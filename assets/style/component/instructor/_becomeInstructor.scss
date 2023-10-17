@@ -1,0 +1,90 @@
+.become-bg {
+  background: rgba(245, 247, 250, 1);
+  padding: 68px 0 120px 0;
+}
+.become-card {
+  background: linear-gradient(90deg, #cc522b 0%, #ff6636 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .card-about {
+    padding-left: 30px;
+    h1 {
+      font-size: 30px;
+      color: #fff;
+      font-weight: 500;
+      padding-top: 10px;
+    }
+    p {
+      color: #fff;
+      margin-top: 10px;
+    }
+    .learning-btn {
+      padding: 24px 0 24px 0;
+
+      .start-learning-btn {
+        display: inline;
+        background: #fff;
+        padding: 10px 15px;
+        margin-top: 10px;
+        color: rgba(255, 102, 54, 1);
+        font-weight: 600;
+        span {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+  .instructor-img {
+    margin-right: 36px;
+    width: 400px;
+  }
+}
+.become-desc {
+  .your-teaching {
+    background: #fff;
+    padding: 21px;
+    .your-teaching-title {
+      h1 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 30px;
+      }
+    }
+    .teaching-opt {
+      margin-top: 24px;
+      ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        li {
+          font-size: 16px;
+          margin-bottom: 30px;
+          .one-bg {
+            color: rgba(86, 79, 253, 1);
+            background: rgba(235, 235, 255, 1);
+          }
+          .two-bg {
+            color: rgba(255, 102, 54, 1);
+
+            background: rgba(255, 240, 240, 1);
+          }
+          .three-bg {
+            color: rgba(227, 68, 68, 1);
+            background: rgba(255, 240, 240, 1);
+          }
+          .four-bg {
+            color: rgba(35, 189, 51, 1);
+            background: rgba(225, 247, 227, 1);
+          }
+          .for-all {
+            padding: 9px 16px;
+            border-radius: 50%;
+            font-size: 16px;
+            font-weight: 500;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

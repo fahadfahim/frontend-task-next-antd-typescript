@@ -1,0 +1,61 @@
+.instructor-card {
+  .card-img {
+    img {
+      width: 100%;
+    }
+  }
+  .card-info {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    h1 {
+      font-size: 16px;
+      color: rgba(29, 32, 38, 1);
+      font-weight: 500;
+    }
+    p {
+      font-size: small;
+      color: rgba(140, 148, 163, 1);
+    }
+    .instructor-title {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* number of lines to show */
+      line-clamp: 2;
+      -webkit-box-orient: vertical;
+      margin: 12px 0;
+      h1 {
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(29, 32, 38, 1);
+        font-weight: 500;
+      }
+    }
+  }
+  .rating-enroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 10px 10px 14px;
+    border-top: 1px solid rgba(233, 234, 240, 1);
+    .rating {
+      color: rgba(78, 85, 102, 1);
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .enroll {
+      color: rgba(78, 85, 102, 1);
+      font-size: 16px;
+      font-weight: 600;
+      .students {
+        font-size: 12px;
+        color: rgb(140, 148, 163);
+        font-weight: normal;
+      }
+    }
+  }
+}
+.instructor-border {
+  border: 1px solid rgba(233, 234, 240, 1);
+}

@@ -18,7 +18,7 @@ const BestSellingCourse = () => {
     <div className="best-selling">
       <div className="best-selling-wrapper">
         <div className="best-title">
-          <h1>Best Selling Course</h1>
+          <h1>Best Selling Courses</h1>
         </div>
         <div className="course-wrapper">
           <CourseCard

@@ -7,4 +7,5 @@ export interface CourseCardProps {
   students: string;
   bg?: string;
   cardBorder?: string;
+  user?: any;
 }

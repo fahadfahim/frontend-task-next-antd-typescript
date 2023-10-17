@@ -8,7 +8,7 @@ const Layout = ({ children }: any) => {
     <>
       <TopNav />
       <SecondNav />
-      {children ? children : "Loading...."}
+      {children}
       <Footer />
     </>
   );

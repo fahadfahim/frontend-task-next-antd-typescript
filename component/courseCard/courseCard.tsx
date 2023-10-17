@@ -1,5 +1,5 @@
 import { CourseCardProps } from "@/interfaces/courseCard";
-import { StarFilled } from "@ant-design/icons";
+import { StarFilled, UserOutlined } from "@ant-design/icons";
 import Image from "next/image";
 import React from "react";
 
@@ -12,6 +12,7 @@ const CourseCard = ({
   students,
   bg,
   cardBorder,
+  user,
 }: CourseCardProps) => {
   return (
     <div className={`${cardBorder ? cardBorder : ""} course-card`}>
@@ -38,7 +39,8 @@ const CourseCard = ({
           {rating}
         </div>
         <div className="enroll">
-          {students} <span className="students">Students</span>
+          {user && <UserOutlined />} {students}{" "}
+          <span className="students">Students</span>
         </div>
       </div>
     </div>

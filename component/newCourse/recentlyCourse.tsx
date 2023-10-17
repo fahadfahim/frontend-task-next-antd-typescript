@@ -161,6 +161,7 @@ const RecentlyCourse = () => {
                   students="445k"
                   bg="bg-orange"
                   cardBorder="course-border"
+                  user={true}
                 />
               </Popover>
             </Col>
@@ -176,6 +177,7 @@ const RecentlyCourse = () => {
                   students="245k"
                   bg="bg-light"
                   cardBorder="course-border"
+                  user={true}
                 />
               </Popover>
             </Col>
@@ -191,6 +193,7 @@ const RecentlyCourse = () => {
                   students="445k"
                   bg="bg-blue"
                   cardBorder="course-border"
+                  user={true}
                 />
               </Popover>
             </Col>
@@ -206,6 +209,7 @@ const RecentlyCourse = () => {
                   students="445k"
                   bg="bg-green"
                   cardBorder="course-border"
+                  user={true}
                 />
               </Popover>
             </Col>
